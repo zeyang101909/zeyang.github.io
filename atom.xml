@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>泽阳的技术博客</title>
+  <title>泽阳的笔记</title>
   
   <subtitle>记录日常工作</subtitle>
   <link href="/atom.xml" rel="self"/>
