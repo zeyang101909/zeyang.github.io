@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-24T14:05:59.868Z</updated>
+  <updated>2020-05-24T14:08:12.948Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://yoursite.com/2019/06/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     <id>http://yoursite.com/2019/06/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
     <published>2019-06-24T13:24:45.000Z</published>
-    <updated>2020-05-24T14:05:59.868Z</updated>
+    <updated>2020-05-24T14:08:12.948Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1><h3 id="设计模式-1"><a href="#设计模式-1" class="headerlink" title="设计模式"></a>设计模式</h3><p>设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所使用，软件开发人员在软件开发过程中面临 的一般问题的解决方案。这些解决方案时众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。</p><h4 id="GOF"><a href="#GOF" class="headerlink" title="GOF"></a>GOF</h4><p>GOF 主要是基于一下的面向对象设计原则</p><ul><li>对接口编程而不是对实现编程</li><li>优先使用对象组合而不是继承</li></ul><p>学习这些模式有助于经验不足的开发人员通过一种简单快捷的方式来学习软件设计。<br><strong>设计模式 - 可复用的面向对象软件元素</strong>中所提到的，总共有23中设计模式。这些设计模式可以分为三大类:创建型模式、结构型模式、行为型模式</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h3><p>设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所使用，软件开发人员在软件开发过程中面临 的一般问题的解决方案。这些解决方案时众多软件开发人员经过相当长的一段时间的试验和错误总结出来的。</p><h4 id="GOF"><a href="#GOF" class="headerlink" title="GOF"></a>GOF</h4><p>GOF 主要是基于一下的面向对象设计原则</p><ul><li>对接口编程而不是对实现编程</li><li>优先使用对象组合而不是继承</li></ul><p>学习这些模式有助于经验不足的开发人员通过一种简单快捷的方式来学习软件设计。<br><strong>设计模式 - 可复用的面向对象软件元素</strong>中所提到的，总共有23中设计模式。这些设计模式可以分为三大类:创建型模式、结构型模式、行为型模式</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;设计模式&quot;&gt;&lt;a href=&quot;#设计模式&quot; class=&quot;headerlink&quot; title=&quot;设计模式&quot;&gt;&lt;/a&gt;设计模式&lt;/h1&gt;&lt;h3 id=&quot;设计模式-1&quot;&gt;&lt;a href=&quot;#设计模式-1&quot; class=&quot;headerlink&quot; title=&quot;设计模式&quot;
+        &lt;h3 id=&quot;设计模式&quot;&gt;&lt;a href=&quot;#设计模式&quot; class=&quot;headerlink&quot; title=&quot;设计模式&quot;&gt;&lt;/a&gt;设计模式&lt;/h3&gt;&lt;p&gt;设计模式（Design pattern）代表了最佳的实践，通常被有经验的面向对象的软件开发人员所使用，软件开发人员在软件开发
       
     
     </summary>
