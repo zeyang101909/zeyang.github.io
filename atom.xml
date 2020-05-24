@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-24T13:10:43.639Z</updated>
+  <updated>2020-05-24T13:12:06.325Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,24 +18,25 @@
   
   <entry>
     <title>IOS</title>
-    <link href="http://yoursite.com/2020/05/17/IOS/"/>
-    <id>http://yoursite.com/2020/05/17/IOS/</id>
-    <published>2020-05-17T09:45:40.000Z</published>
-    <updated>2020-05-24T13:10:43.639Z</updated>
+    <link href="http://yoursite.com/2017/12/02/IOS/"/>
+    <id>http://yoursite.com/2017/12/02/IOS/</id>
+    <published>2017-12-02T13:01:24.000Z</published>
+    <updated>2020-05-24T13:12:06.325Z</updated>
     
-    <content type="html"><![CDATA[<p>ios测试</p><p><img src="http://img.51timetravel.com/img/2020/05/24/111.png" alt="111"></p>]]></content>
+    <content type="html"><![CDATA[<p>ios测试<br><img src="http://img.51timetravel.com/img/2020/05/24/111.png" alt="111"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;ios测试&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://img.51timetravel.com/img/2020/05/24/111.png&quot; alt=&quot;111&quot;&gt;&lt;/p&gt;
+        &lt;p&gt;ios测试&lt;br&gt;&lt;img src=&quot;http://img.51timetravel.com/img/2020/05/24/111.png&quot; alt=&quot;111&quot;&gt;&lt;/p&gt;
 
       
     
     </summary>
     
+    
+      <category term="IOS" scheme="http://yoursite.com/categories/IOS/"/>
     
     
       <category term="IOS" scheme="http://yoursite.com/tags/IOS/"/>
