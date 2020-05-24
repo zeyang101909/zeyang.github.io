@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-24T13:20:57.792Z</updated>
+  <updated>2020-05-24T13:59:42.942Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,30 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo创建技术博客</title>
-    <link href="http://yoursite.com/2017/12/02/hello-world/"/>
-    <id>http://yoursite.com/2017/12/02/hello-world/</id>
-    <published>2017-12-02T13:01:24.000Z</published>
-    <updated>2020-05-24T13:20:57.792Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一个新文章"><a href="#创建一个新文章" class="headerlink" title="创建一个新文章"></a>创建一个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>更多信息见: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="本地服务运行"><a href="#本地服务运行" class="headerlink" title="本地服务运行"></a>本地服务运行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p><code>title: Hello World //标题 date: 2017-12-02 21:01:24 //时间 categories: &quot;分类&quot; //分类名称 tags:      - 标签1     - 标签2</code></p><h4 id="清除和发布"><a href="#清除和发布" class="headerlink" title="清除和发布"></a>清除和发布</h4><p>hexo clean &amp;&amp; hexo deploy</p><h4 id="关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示"><a href="#关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示" class="headerlink" title="关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示"></a>关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示</h4>]]></content>
+    <title>设计模式</title>
+    <link href="http://yoursite.com/2020/05/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://yoursite.com/2020/05/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
+    <published>2020-05-24T13:59:42.000Z</published>
+    <updated>2020-05-24T13:59:42.942Z</updated>
     
     <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;快速开始&quot;&gt;&lt;a href=&quot;#快速开始&quot; class=&quot;headerlink&quot; title=&quot;快速开始&quot;&gt;&lt;/a&gt;快速开始&lt;/h2&gt;&lt;h3 id=&quot;创建一个新文章&quot;&gt;&lt;a href=&quot;#创建一个新文章&quot; class=&quot;headerlink&quot; title=&quot;创建一
-      
     
     </summary>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-      <category term="创建博客" scheme="http://yoursite.com/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -68,6 +55,34 @@
     
     
       <category term="IOS" scheme="http://yoursite.com/tags/IOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo创建技术博客</title>
+    <link href="http://yoursite.com/2017/12/02/hello-world/"/>
+    <id>http://yoursite.com/2017/12/02/hello-world/</id>
+    <published>2017-12-02T13:01:24.000Z</published>
+    <updated>2020-05-24T13:35:42.351Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一个新文章"><a href="#创建一个新文章" class="headerlink" title="创建一个新文章"></a>创建一个新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>更多信息见: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="本地服务运行"><a href="#本地服务运行" class="headerlink" title="本地服务运行"></a>本地服务运行</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多详情请见: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: Hello World <span class="comment">#标题</span></span><br><span class="line"> date: 2017-12-02 21:01:24 <span class="comment">#时间</span></span><br><span class="line"> categories: <span class="string">"分类"</span> <span class="comment">#分类名称</span></span><br><span class="line"> tags: </span><br><span class="line">     - 标签1</span><br><span class="line">     - 标签2</span><br></pre></td></tr></table></figure><h4 id="清除和发布"><a href="#清除和发布" class="headerlink" title="清除和发布"></a>清除和发布</h4><p>hexo clean &amp;&amp; hexo deploy</p><h4 id="关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示"><a href="#关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示" class="headerlink" title="关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示"></a>关于图片显示问题可以使用云存储或者自己搭建图床在博客中进行显示</h4>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;快速开始&quot;&gt;&lt;a href=&quot;#快速开始&quot; class=&quot;headerlink&quot; title=&quot;快速开始&quot;&gt;&lt;/a&gt;快速开始&lt;/h2&gt;&lt;h3 id=&quot;创建一个新文章&quot;&gt;&lt;a href=&quot;#创建一个新文章&quot; class=&quot;headerlink&quot; title=&quot;创建一
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="创建博客" scheme="http://yoursite.com/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
