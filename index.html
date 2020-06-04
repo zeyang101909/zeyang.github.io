@@ -144,10 +144,116 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/06/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" data-id="ckal5eniv0001eow953y4fymz" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/06/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" data-id="ckb0mr335000mf8w97y5bb6h9" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="tag">设计模式</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-认识ES6" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/06/04/%E8%AE%A4%E8%AF%86ES6/" class="article-date">
+  <time datetime="2019-06-04T10:05:56.000Z" itemprop="datePublished">2019-06-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/06/04/%E8%AE%A4%E8%AF%86ES6/">认识ES6</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="ES6-是什么"><a href="#ES6-是什么" class="headerlink" title="ES6 是什么"></a>ES6 是什么</h3><p>ES6全称ECMAScript，是一种脚本语言规范，JavaScript是ECMAScript规范的实现。ES6 是第六个版本（ES2015）。通过bable转码器在线转换ES6 语法为ES5.</p>
+<h4 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h4><p><strong>let</strong><br>let 关键字允许声明一个作用域被限制在块级中的标量、语句或者表达式。<br>与var关键字的区别：</p>
+<ol>
+<li>var声明的变量只能是全局或者整个函数块的，let的作用域限制的块内</li>
+<li>var声明的变量会提升，let不存在变量提升</li>
+<li>var声明的变量可以重复声明，let不行</li>
+<li>使用let之后不可以在使用var重复声明</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  let a &#x3D; 10;</span><br><span class="line">  var b &#x3D; 1;</span><br><span class="line">&#125;</span><br><span class="line">console.log(b); &#x2F;&#x2F; 1</span><br><span class="line">console.log(a); &#x2F;&#x2F; 报错a没有定义</span><br></pre></td></tr></table></figure>
+<p><strong>const</strong> 命令<br>const声明一个只读的常量。一旦声明，常量的值就不能改变，且声明时必须立即初始化，不能留到以后赋值。const的作用域与let命令相同：只在声明所在的块级作用域内有效。</p>
+<p><strong>Class命令</strong><br>ES6 提供了更接近传统语言的写法，引入了Class（类）这个概念（类的数据类型就是函数，类本身就指向构造函数），作为对象的模板。通过class关键字，可以定义类。class可以看作只是一个语法糖，它的绝大部分功能，ES5都可以做到，新的class写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">class Point &#123;</span><br><span class="line">  constructor(x, y) &#123;  &#x2F;&#x2F; 构造方法，this关键字代表实例对象</span><br><span class="line">    this.x &#x3D; x;</span><br><span class="line">    this.y &#x3D; y;</span><br><span class="line">  &#125;</span><br><span class="line">  toString() &#123; &#x2F;&#x2F; 自定义方法，方法之间不需要逗号分隔，加了会报错</span><br><span class="line">    return &#39;(&#39; + this.x + &#39;, &#39; + this.y + &#39;)&#39;;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>import命令</strong><br>        import虽然属于声明命令，但它是和export命令配合使用的。export命令用于规定模块的对外接口，import命令用于输入其他模块提供的功能。</p>
+<p>一个模块就是一个独立的文件。该文件内部的所有变量，外部无法获取。如果外部能够读取模块内部的某个变量、函数或类，就必须使用export关键字输出。export输出的变量就是本来的名字，但是可以使用as关键字重命名</p>
+<p><strong>解构赋值</strong><br>ES6允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构（Destructuring）。本质上，这种写法属于“模式匹配”，只要等号两边的模式相同，左边的变量就会被赋予对应的值。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">let a &#x3D; 1;</span><br><span class="line">let b &#x3D; 2;</span><br><span class="line">let c &#x3D; 3;</span><br><span class="line">&#x2F;&#x2F; 等价于</span><br><span class="line">let [a, b, c] &#x3D; [1, 2, 3];</span><br><span class="line"> </span><br><span class="line">let [ , third] &#x3D; [&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;];</span><br><span class="line">third &#x2F;&#x2F; &quot;bar&quot;</span><br><span class="line"> </span><br><span class="line">let [head, ...tail] &#x3D; [1, 2, 3, 4];</span><br><span class="line">head &#x2F;&#x2F; 1</span><br><span class="line">tail &#x2F;&#x2F; [2, 3, 4]</span><br><span class="line"> </span><br><span class="line">let [x, y, ...z] &#x3D; [&#39;a&#39;];</span><br><span class="line">x &#x2F;&#x2F; &quot;a&quot;</span><br><span class="line">y &#x2F;&#x2F; 变量解构不成功，赋值为undefined</span><br><span class="line">z &#x2F;&#x2F; 数组解构不成功，赋值为[]</span><br></pre></td></tr></table></figure>
+
+
+
+<p>不同浏览器的不同版本对ES6的支持度不同，而Babel是一个广泛使用的ES6转码器，可以将ES6代码转为ES5代码，从而在现有环境执行。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/06/04/%E8%AE%A4%E8%AF%86ES6/" data-id="ckb0mr3280004f8w9eb4zaq81" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JS/" rel="tag">JS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/React-Native/" rel="tag">React-Native</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-maven-私服" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/04/28/maven-%E7%A7%81%E6%9C%8D/" class="article-date">
+  <time datetime="2019-04-28T07:12:07.000Z" itemprop="datePublished">2019-04-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/04/28/maven-%E7%A7%81%E6%9C%8D/">maven 私服</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>maven 仓库分本地仓库和中央仓库（公共库、私服），大部分公司都有自己的私服<br>maven 私服优点</p>
+<ul>
+<li>节省自己的外网带宽</li>
+<li>加速构建过程</li>
+<li>部署第三方构件和库</li>
+<li>提高稳定性，增强控制</li>
+<li>降低中央仓库的负荷</li>
+</ul>
+<h4 id="maven私服的搭建"><a href="#maven私服的搭建" class="headerlink" title="maven私服的搭建"></a>maven私服的搭建</h4>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/04/28/maven-%E7%A7%81%E6%9C%8D/" data-id="ckb0mr32a0005f8w98d7acwvf" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/maven/" rel="tag">maven</a></li></ul>
 
     </footer>
   </div>
@@ -187,7 +293,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/12/02/IOS/" data-id="ckal5eniq0000eow9atfeg4mz" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/12/02/IOS/" data-id="ckb0mr31v0000f8w9g66b5usi" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/" rel="tag">IOS</a></li></ul>
@@ -242,7 +348,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/12/02/hello-world/" data-id="ckal5eniy0004eow9b5wxgs9u" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/12/02/hello-world/" data-id="ckb0mr3230001f8w9a12k7g3q" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="tag">创建博客</a></li></ul>
@@ -274,7 +380,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IOS/" rel="tag">IOS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="tag">创建博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="tag">设计模式</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IOS/" rel="tag">IOS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JS/" rel="tag">JS</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/React-Native/" rel="tag">React-Native</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/maven/" rel="tag">maven</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="tag">创建博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" rel="tag">设计模式</a></li></ul>
     </div>
   </div>
 
@@ -284,7 +390,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/IOS/" style="font-size: 10px;">IOS</a> <a href="/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">创建博客</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 10px;">设计模式</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/IOS/" style="font-size: 10px;">IOS</a> <a href="/tags/JS/" style="font-size: 10px;">JS</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/React-Native/" style="font-size: 10px;">React-Native</a> <a href="/tags/maven/" style="font-size: 10px;">maven</a> <a href="/tags/%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">创建博客</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 10px;">设计模式</a>
     </div>
   </div>
 
@@ -293,7 +399,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">六月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li></ul>
     </div>
   </div>
 
@@ -307,6 +413,14 @@
         
           <li>
             <a href="/2019/06/24/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">设计模式</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/04/%E8%AE%A4%E8%AF%86ES6/">认识ES6</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/28/maven-%E7%A7%81%E6%9C%8D/">maven 私服</a>
           </li>
         
           <li>
